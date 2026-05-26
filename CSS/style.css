@@ -1,0 +1,28 @@
+.mainDiv{
+    /* width: 600px; */
+}
+#head1{
+    /* background-color: pink; */
+    color:brown;
+    /* width: 100vw; */
+    height: 8vh;
+    /* margin:20px 50px 100px 200px; */
+    /* padding: 50px 100px 200px 400px; */
+    /* margin-left: 100px; */
+    border-radius: 15px 30px 5px 0px;
+    text-align: right;
+    /* border-width: 5px;
+    border-color: black;
+    border-style: solid; */
+    /* border: 5px dotted rgba(38, 159, 14, 0.635); */
+}
+#head2{
+    background-color: black;
+}
+.head1{
+    /* background-color: yellow; */
+}
+
+span{
+    float: right;
+}
