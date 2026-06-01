@@ -1,0 +1,85 @@
+.container{
+    height: 100px;
+    width:200px;
+    background-color: red;
+    position: relative;
+}
+
+.container:hover::after{
+    content: "This is Rectanagle";
+    color: black;
+    position: absolute;
+    top:15px;
+    left: 205px;
+}
+h1{
+    
+    color: black;
+    position: relative;
+}
+h1::after{
+    content: "This is Heading";
+    position: absolute;
+    top:55px;
+    left: 0px;
+}
+
+.navLinks{
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    background-color: black;
+    color: white
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    position: relative;
+}
+
+a:hover::after{
+    content:" ";
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    left:10px;
+    top: 55px;
+    border-radius: 5px;
+    transform: scaleX(1.2);
+    transition: .8s ease;
+}
+
+.box{
+    width:200px;
+    height: 200px;
+    /* background-color: blue; */
+}
+
+/* .box:first-child{
+    background-color: green;
+} */
+
+.box:nth-child(3){
+    background-color: green;
+}
+/* p::first-line{
+    color: red;
+} */
+
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+p::selection{
+    background-color: black;
+    color: white;
+}
+
+.sectionBox{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    clip-path:polygon(50% 0%,100% 100%,0% 100%)
+}
